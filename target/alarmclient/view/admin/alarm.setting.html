@@ -1,0 +1,20 @@
+
+<div><label><h3>$lang.get('alarm.enabled'):</h3>
+	<input type='checkbox' name='alarm.enabled' #if($global.getInt('alarm.enabled', 0)==1) checked="checked" #end/>
+	<g>$lang.get("alarm.enabled.hint")</g>
+</label></div>
+
+<div><label><h3>$lang.get('app.uuid'):</h3>
+	<input class="width-40" type='text' name='app.uuid' value="$!global.getString('app.uuid', '')" />
+	<g>$lang.get("app.uuid.hint")</g>
+</label></div>
+
+<div><label><h3>$lang.get('alarm.table'):</h3>
+	<input type='text' name='alarm.table' value="$!global.getString('alarm.table', '')" />
+	<g>$lang.get("alarm.table.hint")</g>
+</label></div>
+
+<div><label><h3>$lang.get('alarm.format'):</h3>
+	<input class="width-80" type='text' name='alarm.format' value="$!global.getString('alarm.format', '')" />
+	<g>$lang.get("alarm.format.hint")</g>
+</label></div>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module version="1.0">
+  <id>618</id>
+  <name>alarmclient</name>
+  <package>org.giiwa.alarmclient.web</package>
+  <version>1.0</version>
+  <build>2003141144</build>
+  <enabled>true</enabled>
+  <readme>alarmclient</readme>
+  <listener>
+    <!--add module listener here, please refer IListener interface-->
+    <class>org.giiwa.alarmclient.web.AlarmclientListener</class>
+  </listener>
+  <required>
+    <!--add all required modules here-->
+    <module name="default" minversion="2.1.2003120736" maxversion="2.1.*"/>
+  </required>
+  <key>MIICdQIBADANBgkqhkiG9w0BAQEFAASCAl8wggJbAgEAAoGBAMPI0LF/TE6uFDReTF5rYqRHYrYLksV1rrHu/4oE8gP/DTebC+jmrQFNO0e0/r+T0Vg2+neyYGRNCI1k5YatodqBDswWEoU2TIDmRKgsQKiRRMTsDm09/B7CZpTTo8fQdZpFklsB8ShisUEojyxt0RglVwzMrEfBcsaFaeTP3RmvAgMBAAECgYBOz25alOCVp3NQpUjelSGO+YFdwIjjXXzl+Uv6NgVp4GhkotAHf5vSs1ESi2QkoA8cEH2AY1hz56JysFPIg+prgm3FtpRO2c2xUXypON2MNmg1UloAQjkLX9Z4jKbTGYbKl+vQjCWLWjYsYfb7lMzlfyJf13O/hQJsqXqATcAEUQJBAPfYdrCvlZ+4bUGp7CWQabocp7kCmePG6x2ujLBI30WGJpwsMLBK01BRf01gP5Rs9bT2AGW7aCZG0CIt1DMJ45kCQQDKOdrP8gQ6OHrcuPwJumAqDbFdFx11lGk/zJwwrM1tLKTOKdTO3mCkKUELaI06gPFTtIWnmjKxmR2fJS9hozSHAkA4ufqwhf+hBv06wkGid2M7jcN1vPqr/6Ngr8rTrlor94Buzk52iynCgGS6uQTUW/wA5y1AG5zC5gJNUF/5LpJBAkAQWRD5UoVI95vnEAU//BMeEzFNZzr4cGD5yV6vCKkqtDs2d2c+ufdyDeu2MmOIYTghHizX2b1TYh9k6CqmZ/0tAkBCU8vSCLxN+iV69lB+rVhnlDRlFyKan8n15uCzIDtqQoq2p6BLlGRxubVElYCA9N9XFvsx+uYq2WJw9Hwtn1zR</key>
+</module>
