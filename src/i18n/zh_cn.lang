@@ -1,0 +1,9 @@
+app.uuid=应用UUID
+a.setting.alarm=告警设置
+alarm.format=内容格式
+alarm.enabled=开启
+alarm.enabled.hint=自动推送告警信息
+alarm.table.hint=数据表名称
+alarm.table=告警数据表
+app.uuid.hint=请登录 https://alarm.giisoo.com 创建应用，获取应用uuid
+alarm.format.hint=&lt;p&gt;节点:$!node&lt;/p&gt;&lt;p&gt;$!content&lt;/p&gt;
